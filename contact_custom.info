@@ -1,0 +1,5 @@
+name = Contact Customizer
+description = Modify the contact form
+package = Aardvark Modules
+core = 7.x
+files[] = contact_custom.module
