@@ -7,8 +7,12 @@ function contact_custom_form_alter(&$form, &$form_state, $form_id) {
         $form['copy']['#access'] = 0;
         $form['copy']['#default_value'] = 1;
 
-        $form['subject']['#access'] = 0;
-        $form['subject']['#default_value'] = 'Feedback';
+        $form['subject']['#access'] = 1;
+        $form['subject']['#default_value'] = 'I want to hire you';
+
+        $form['name']['#default_value'] = '';
+
+        $form['mail']['#default_value'] = '';
 
         // use these lines to print all form info if needed
         print '<pre>';
