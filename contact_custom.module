@@ -15,10 +15,10 @@ function contact_custom_form_alter(&$form, &$form_state, $form_id) {
         $form['mail']['#default_value'] = '';
 
         // use these lines to print all form info if needed
-        print '<pre>';
-        print_r($form);
-        print '</pre>';
-        print_r($form_id);
+        // print '<pre>';
+        // print_r($form);
+        // print '</pre>';
+        // print_r($form_id);
     }
 
 }
